@@ -1,5 +1,5 @@
 import './App.css'
-import HistoryItem from './components/HistoryItem/'
+import HistorySearch from './components/HistorySearch/'
 
 const initialHistoryList = [
   {
@@ -76,8 +76,8 @@ const initialHistoryList = [
   },
 ]
 
-// Replace your code here
-const App = () => <HistoryItem HistoryList={initialHistoryList} />
+
+const App = () => <HistorySearch HistoryList={initialHistoryList} />
 
 
 export default App

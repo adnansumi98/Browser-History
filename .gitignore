@@ -24,3 +24,6 @@ yarn-error.log*
 .eslintcache
 .vscode/
 .results
+pnpm-lock.yaml
+.gitignore
+package-lock.json

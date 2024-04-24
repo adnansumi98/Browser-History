@@ -1,0 +1,90 @@
+.item-container {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto";
+  font-size: 14px;
+  border-bottom: solid 2px #ececec;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+}
+
+.results-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+}
+
+.time,
+.Url {
+  color: #64748b;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.logo {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.title {
+  color: #475569;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.delete {
+  background-size: cover;
+  background-color: transparent;
+  border-color: transparent;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: auto;
+}
+
+@media (max-width:576px) {
+  .details-container {
+    width: 80vw;
+  }
+
+  .item-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-bottom: solid 2px #ececec;
+  }
+
+  .time-container {
+    margin-bottom: 10px;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    height: 10px;
+    width: 10px;
+  }
+
+}
